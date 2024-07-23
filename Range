@@ -1,0 +1,20 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+         int n1 = s.nextInt();
+        int n2 = s.nextInt();
+        int sum=0;
+        for (int i = n1; i <= n2; i++) {
+            sum += i;
+    }
+                System.out.printf("The sum of Range value from "+n1+" to "+n2+" is "+sum+".0");
+
+}
+}
